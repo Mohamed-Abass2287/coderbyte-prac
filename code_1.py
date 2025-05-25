@@ -12,7 +12,7 @@ def FindIntersection(strArr):
 print(FindIntersection(["1, 3, 4, 7, 13", "1, 2, 4, 13, 15"]))
 # Output: "1,4,13"
 
-
+#  find intersection of two lists of numbers
 def FindIntersection(strArr):
     # Convert input strings into sets of integers
     list1 = set(map(int, strArr[0].split(", ")))

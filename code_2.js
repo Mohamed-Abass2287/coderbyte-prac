@@ -1,3 +1,4 @@
+// find intersection of two lists of numbers
 function FindIntersection(strArr) {
     // Convert input strings into arrays of numbers
     const list1 = new Set(strArr[0].split(", ").map(Number));
@@ -12,3 +13,5 @@ function FindIntersection(strArr) {
 // Example usage:
 console.log(FindIntersection(["1, 3, 4, 7, 13", "1, 2, 4, 13, 15"]));
 // Expected Output: "1,4,13"
+
+// codeland username
