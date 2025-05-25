@@ -15,3 +15,11 @@ console.log(FindIntersection(["1, 3, 4, 7, 13", "1, 2, 4, 13, 15"]));
 // Expected Output: "1,4,13"
 
 // codeland username
+function CodelandUsernameValidation(str) {
+    // Check if the username meets the criteria
+    const isValid = /^[a-zA-Z][a-zA-Z0-9_]{3,24}$/.test(str);
+    return isValid ? "true" : "false";
+}
+//keep the function here
+console.log(CodelandUsernameValidation("aa_")); //"false"
+
